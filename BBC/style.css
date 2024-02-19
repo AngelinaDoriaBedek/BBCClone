@@ -1,0 +1,304 @@
+/* default tags */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+    color: #333333;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #F5F5F5;
+}
+
+li {
+    display: inline-block;
+    padding: 12px;
+    border-right: 1px solid #F5F5F5;
+    height: auto;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+section a {
+    color: #222222;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+header {
+    background-color: #222222;
+    padding: 0% 10% 0% 10%;
+}
+
+nav {
+    font-size: 15px;
+}
+
+main {
+    margin: 0% 10% 5% 10%;
+}
+
+section {
+    margin: 2% 0% 8% 0%;
+}
+
+section div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+article {
+    width: 30%;
+    height: 350px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #222222;
+    color: #F5F5F5;
+    padding: 5px;
+}
+
+footer div {
+    margin: 0% 10% 0% 10%
+}
+
+footer p {
+    font-size: 12px;
+}
+
+
+form {
+    padding: 2% 0% 4% 2%;
+    margin: 2% 40% 0% 0%;
+    background-color: #b0b0b0;
+    border: 1px solid #b0b0b0;
+    border-right: 10px solid #929292;
+    border-radius: 50px;
+}
+
+form textarea {
+    width: 60%;
+    height: 100px;
+}
+
+form label {
+    font-size: 18px;
+}
+
+
+/* classes */
+
+.type {
+    padding-left: 8px;
+}
+
+.title {
+    display: inline-block;
+    width: 100%;
+}
+
+.story {
+    margin-right: 15%;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.button {
+    margin-top: 3%;
+    padding: 5px;
+    width: 20%;
+}
+
+.error {
+    color: #9B0000;
+}
+
+.input {
+    width: 60%;
+}
+
+/* ids */
+
+#welcome_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0% 3% 0%;
+}
+
+#welcome {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#date {
+    color: #575757;
+    font-size: 24px;
+}
+
+#logo {
+    width: 35px;
+    height: 12px;
+}
+
+
+
+/* styles for tablet screens */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+
+    li {
+        padding: 16px;
+    }
+
+    main {
+        margin-bottom: 0%;
+    }
+
+    form {
+        padding: 0% 0% 10% 0%;
+        margin: 0%;
+        width: 100%;
+        background-color: #b0b0b0;
+        border: none;
+        border-right: 8px solid #929292;
+        border-radius: 0;
+    }
+
+    .form-content {
+        padding: 5% 0% 0% 5%;
+    }
+
+}
+
+/* styles for mobile screens */
+@media screen and (max-width: 767px) {
+
+    li {
+        display: block;
+        padding: 12px;
+        height: auto;
+        width: auto;
+        letter-spacing: 4px;
+        border: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #F5F5F5;
+        padding: 0% 0% 0% 5%;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    header {
+        background-color: #222222;
+        padding: 3% 10% 3% 10%;
+    }
+
+    main {
+        margin: 0% 5% 0% 5%;
+    }
+
+    section div {
+        display: block;
+    }
+
+    article {
+        width: 100%;
+        height: 100%;
+        padding: 5% 0% 5% 0%;
+    }
+
+    footer div {
+        margin: 0% 5% 0% 5%;
+    }
+
+
+    form {
+        padding: 0% 0% 15% 2%;
+        margin: 0%;
+        width: 100%;
+        background-color: #b0b0b0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .form-content {
+        padding: 5% 0% 0% 5%;
+    }
+
+    form img {
+        width: 50%;
+        padding-top: 2%;
+        margin: 0;
+    }
+
+    /* classes */
+
+    .story {
+        margin: auto;
+        text-align: justify;
+    }
+
+
+    /* ids */
+
+    #welcome_div {
+        padding: 3% 0% 3% 0%;
+        display: block;
+    }
+
+    #welcome {
+        font-size: 26px;
+    }
+
+    #date {
+        color: #575757;
+        font-size: 22px;
+    }
+
+    #logo {
+        width: 100%;
+        height: 100%;
+    }
+
+}
